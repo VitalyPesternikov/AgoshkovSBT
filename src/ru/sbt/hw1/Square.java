@@ -3,7 +3,7 @@ package ru.sbt.hw1;
 /**
  * Created by Vitaly on 28.09.2017.
  */
-public class Square {
+public class Square implements Shape {
     private double side;
     Square(double side){
         this.side = side;
